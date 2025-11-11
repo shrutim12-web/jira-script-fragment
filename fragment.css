@@ -1,0 +1,31 @@
+.custom-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0747a6; /* Jira blue */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.banner-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.banner-button {
+  background-color: #0052cc;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.2s ease;
+}
+
+.banner-button:hover {
+  background-color: #0065ff;
+}
